@@ -1,1 +1,9 @@
 language: java
+
+deploy:
+  provider: s3
+  access_key_id: AKIAIGYXEUHBV3I3ZDTA
+  secret_access_key: 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
+  bucket: "S3 Bucket"
+  skip_cleanup: true
+
