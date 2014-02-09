@@ -1,16 +1,24 @@
 Readme for Magento App for Account Creation
+----------------
 
-Run in jetty 
+To Run in jetty 
 mvn jetty:run
 
-Run in Tomcat 
+To Run in Tomcat 
 mvn tomcat:run
 
+The application can be accessed using the link :
+http://localhost:8080/abc4589/
+
+Other notes :
+--------------
 Cobertura plugin has been added to the pom.xml file
 Run this to generate the report : mvn cobertura:cobertura
 Report will be generate in abc4589/target/site/index.html
 Currently there are no unit tests (unfortunately. Things like HTMLUnit could be used to test Servlet maybe), the coverage will get added as tests are added
 
-The Travis CI integration is done. Not sure how to share that information here. 
+
+The Travis CI integration is done. Not sure how to share that information here. It is linked to Git repository. Anytime 
+a change is pushed, build is triggered in Travis CI
 
 
